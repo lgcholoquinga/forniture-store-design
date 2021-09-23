@@ -1,0 +1,46 @@
+.title-content {
+  margin-bottom: 1rem;
+}
+.form {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.form fieldset {
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.form legend {
+  background-color: #005485;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.field label {
+  flex-basis: 10rem;
+}
+
+.input {
+  flex: 1;
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+}
+
+.field textarea {
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+  flex: 1;
+}

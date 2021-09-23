@@ -48,6 +48,8 @@ img {
   padding: 1rem;
   font-weight: 900;
   transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #769c02;
@@ -156,7 +158,7 @@ img {
 
 /* MAIN */
 .main__container {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .main__container h2 {

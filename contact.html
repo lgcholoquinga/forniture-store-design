@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+  </head>
+  <body>
+    <!-- HEADER-->
+    <header>
+      <h1 class="title_main">Forniture <span>Store</span></h1>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- NAVIGATION -->
+    <div class="navigation__container">
+      <nav class="navigation_main container">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./store.html">Store</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./galery.html">Galery</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+    <!-- END NAVIGATION -->
+
+    <main class="container main__container">
+      <h2 class="text-center title-content">Contact</h2>
+      <form class="form">
+        <fieldset>
+          <legend>Your Data</legend>
+          <div class="field">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              placeholder="Add your Name"
+              name="name"
+              autocomplete="off"
+              required
+              class="input"
+            />
+          </div>
+
+          <div class="field">
+            <label for="">Subject:</label>
+            <input
+              type="text"
+              placeholder="Add your Subject"
+              name="subject"
+              autocomplete="off"
+              class="input"
+            />
+          </div>
+
+          <div class="field">
+            <label for="">Email:</label>
+            <input
+              type="email"
+              placeholder="Add your Email"
+              name="email"
+              autocomplete="off"
+              class="input"
+            />
+          </div>
+
+          <div class="field">
+            <label for="">Phone:</label>
+            <input
+              type="tel"
+              placeholder="Add your Phone Number"
+              name="phone"
+              autocomplete="off"
+              class="input"
+            />
+          </div>
+
+          <div class="field">
+            <label for="">Message:</label>
+            <textarea name="message" cols="50" rows="10"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Country</legend>
+          <div class="field">
+            <label for="country">Country:</label>
+            <select class="input" name="country">
+              <option value="ecuador">Ecuador</option>
+              <option value="argentina">Argentina</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Extra Information</legend>
+          <div class="field">
+            <label for="client">Client:</label>
+            <input type="radio" name="type" />
+          </div>
+          <div class="field">
+            <label for="provider">Provider:</label>
+            <input type="radio" name="type" value="client" />
+          </div>
+          <div class="field">
+            <label for="categories">Interest Category:</label>
+            <input class="input" list="categories" name="categories" />
+            <datalist id="categories">
+              <option value="Kitchen">Kitchen</option>
+              <option value="Badrooms">Badrooms</option>
+              <option value="Office">Office</option>
+            </datalist>
+          </div>
+        </fieldset>
+        <button class="btn" type="submit">Send Data</button>
+      </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer__container">
+      <div class="footer__grid container">
+        <div class="">
+          <h3>Categories</h3>
+          <nav class="footer__menu">
+            <a href="#">Kitchen</a>
+            <a href="#">Office</a>
+            <a href="#">Garden</a>
+            <a href="#">Garage</a>
+            <a href="#">Bedrooms</a>
+          </nav>
+        </div>
+        <div>
+          <h3>About Us</h3>
+          <nav class="footer__menu">
+            <a href="#">Our History</a>
+            <a href="#">Mision, Vision and Values</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Service Terms</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Support</h3>
+          <nav class="footer__menu">
+            <a href="#">Frequently Asked Questions</a>
+            <a href="#">Online Help</a>
+            <a href="#">Confidence ad Security</a>
+          </nav>
+        </div>
+      </div>
+      <p class="copyright">All Rights Reserved - 2021</p>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>
