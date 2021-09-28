@@ -5,7 +5,14 @@
   column-gap: 4rem;
 }
 .about__information {
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .about__information {
+    padding: 0;
+  }
 }
